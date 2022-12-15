@@ -1,4 +1,4 @@
-<!-- start: Content -->
+
 <div id="content" class="span10">
 
 
@@ -133,14 +133,14 @@
                 </form>   
 
             </div>
-        </div><!--/span-->
+        </div>
 
-    </div><!--/row-->
+    </div>
 
 
-</div><!--/.fluid-container-->
+</div>
 
-<!-- end: Content -->
+
 
 <script>
 document.getElementById('publication_status').value = <?php echo $product_info_by_id->pstatus;?>;

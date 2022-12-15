@@ -1,4 +1,4 @@
-<!-- start: Content -->
+
 <div id="content" class="span10">
 
 
@@ -84,12 +84,10 @@
                     </tbody>
                 </table>            
             </div>
-        </div><!--/span-->
+        </div>
 
-    </div><!--/row-->
+    </div>
 
 
 
-</div><!--/.fluid-container-->
-
-<!-- end: Content -->
+</div>

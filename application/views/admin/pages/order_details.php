@@ -1,4 +1,4 @@
-<!-- start: Content -->
+
 <div id="content" class="span10">
 
 
@@ -110,12 +110,9 @@
                     </tfooter>
                 </table>            
             </div>
-        </div><!--/span-->
-
-    </div><!--/row-->
-
+        </div>
+    </div>
 
 
-</div><!--/.fluid-container-->
 
-<!-- end: Content -->
+</div>

@@ -1,4 +1,4 @@
-<!-- start: Content -->
+
 <div id="content" class="span10">
 
 
@@ -75,12 +75,11 @@
                 </form>   
 
             </div>
-        </div><!--/span-->
+        </div>
 
-    </div><!--/row-->
+    </div>
 
     
     
-</div><!--/.fluid-container-->
+</div>
 
-<!-- end: Content -->
