@@ -24,7 +24,6 @@
         <div class="clear"></div>
     </div>
     <div class="header_bottom_right_images">
-        <!-- FlexSlider -->
         <section class="slider">
             <div class="flexslider">
                 <ul class="slides">
@@ -37,7 +36,6 @@
                 </ul>
             </div>
         </section>
-        <!-- FlexSlider -->
     </div>
     <div class="clear"></div>
 </div>	

@@ -2,48 +2,25 @@
 <html lang="en">
     <head>
 
-        <!-- start: Meta -->
+ 
         <meta charset="utf-8">
         <title>Shop Admin Panel Dashboard</title>
         <meta name="description" content="Shop Admin Panel Dashboard">
         <meta name="author" content="Engr Rostom Ali">
         <meta name="keyword" content="Shop Admin Panel Dashboard">
-        <!-- end: Meta -->
-
-        <!-- start: Mobile Specific -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- end: Mobile Specific -->
-
-        <!-- start: CSS -->
+        
         <link id="bootstrap-style" href="<?php echo base_url()?>assets/admin/css/bootstrap.min.css" rel="stylesheet">
         <link href="<?php echo base_url()?>assets/admin/css/bootstrap-responsive.min.css" rel="stylesheet">
         <link id="base-style" href="<?php echo base_url()?>assets/admin/css/style.css" rel="stylesheet">
         <link id="base-style-responsive" href="<?php echo base_url()?>assets/admin/css/style-responsive.css" rel="stylesheet">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,latin-ext' rel='stylesheet' type='text/css'>
-        <!-- end: CSS -->
-
-
-        <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
-        <!--[if lt IE 9]>
-                <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-                <link id="ie-style" href="<?php echo base_url()?>assets/admin/css/ie.css" rel="stylesheet">
-        <![endif]-->
-
-        <!--[if IE 9]>
-                <link id="ie9style" href="<?php echo base_url()?>assets/admin/css/ie9.css" rel="stylesheet">
-        <![endif]-->
-
-        <!-- start: Favicon -->
         <link rel="shortcut icon" href="<?php echo base_url()?>assets/admin/img/favicon.jpg">
-        <!-- end: Favicon -->
-
-
-
-
+       
     </head>
 
     <body>
-        <!-- start: Header -->
+        
         <div class="navbar">
             <div class="navbar-inner">
                 <div class="container-fluid">
@@ -54,7 +31,6 @@
                     </a>
                     <a class="brand" href="<?php echo base_url('dashboard')?>"><span>Ecommerce Admin Panel</span></a>
 
-                    <!-- start: Header Menu -->
                     <div class="nav-no-collapse header-nav">
                         <ul class="nav pull-right">
                            
@@ -71,20 +47,14 @@
                                     <li><a href="<?php echo base_url('logout')?>"><i class="halflings-icon off"></i> Logout</a></li>
                                 </ul>
                             </li>
-                            <!-- end: User Dropdown -->
                         </ul>
                     </div>
-                    <!-- end: Header Menu -->
 
                 </div>
             </div>
         </div>
-        <!-- start: Header -->
-
         <div class="container-fluid-full">
             <div class="row-fluid">
-
-                <!-- start: Main Menu -->
                 <div id="sidebar-left" class="span2">
                     <div class="nav-collapse sidebar-nav">
                         <ul class="nav nav-tabs nav-stacked main-menu">
@@ -103,7 +73,6 @@
                         </ul>
                     </div>
                 </div>
-                <!-- end: Main Menu -->
 
                 <noscript>
                 <div class="alert alert-block span10">
@@ -113,10 +82,8 @@
                 </noscript>
                 
                 <?php echo $maincontent;?>
-               
-            </div><!--/#content.span10-->
-        </div><!--/fluid-row-->
-
+            </div>
+        </div>
         <div class="modal hide fade" id="myModal">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">×</button>
@@ -141,8 +108,6 @@
             </p></center>
 
         </footer>
-
-        <!-- start: JavaScript-->
 
         <script src="<?php echo base_url()?>assets/admin/js/jquery-1.9.1.min.js"></script>
         <script src="<?php echo base_url()?>assets/admin/js/jquery-migrate-1.0.0.min.js"></script>
@@ -198,7 +163,6 @@
         <script src="<?php echo base_url()?>assets/admin/js/retina.js"></script>
 
         <script src="<?php echo base_url()?>assets/admin/js/custom.js"></script>
-        <!-- end: JavaScript-->
 
     </body>
 </html>

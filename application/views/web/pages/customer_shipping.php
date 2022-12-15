@@ -45,7 +45,7 @@
                                     <select id="country" name="shipping_country" class="frm-field required">
                                         <option value="null">Select a Country</option>         
                                         <option value="Afghanistan">Afghanistan</option>
-                                        <option value="Albania">Albania</option>
+                                        <option value="Albania">Pakistan</option>
                                         <option value="Algeria">Algeria</option>
                                         <option value="Argentina">Argentina</option>
                                         <option value="Armenia">Armenia</option>
